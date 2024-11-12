@@ -6,7 +6,7 @@ Este proyecto contiene pruebas automatizadas para la API pública de GoRest usan
 - Java 8 o superior
 - Maven
 - Git
-- Yarn (opcional)
+- Yarn
 
 ## Ejecución de pruebas localmente
 1. Clona el repositorio.
