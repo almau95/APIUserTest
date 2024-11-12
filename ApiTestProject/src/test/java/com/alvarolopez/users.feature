@@ -17,7 +17,7 @@ Scenario: List users
 Scenario: Create user
   Given path '/users'
   And headers authHeader
-  And request { "name": "Alvaro Lopez", "gender": "male", "email": "alvaro.lopez20@15ce.com", "status": "active" }
+  And request { "name": "Alvaro Lopez", "gender": "male", "email": "alvaro.lopez21@15ce.com", "status": "active" }
   When method POST
   Then status 201
   * def userId = response.id
